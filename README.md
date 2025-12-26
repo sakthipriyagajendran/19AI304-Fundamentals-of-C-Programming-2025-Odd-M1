@@ -26,7 +26,24 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    printf("Integer Literal: %d\n", 100);
+    printf("Float Literal: %.2f\n", 25.75);
+    printf("Character Literal: %c\n", 'A');
+    printf("String Literal: %s\n", "C Programming");
+
+    return 0;
+}
+
 # Output:
+Integer Literal: 100
+Float Literal: 25.75
+Character Literal: A
+String Literal: C Programming
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +74,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+#include <stdio.h>
+
+#define PI 3.14      // Macro constant
+
+int main()
+{
+    const int MAX = 100;   // Constant variable
+
+    printf("Macro Constant PI = %.2f\n", PI);
+    printf("Constant Variable MAX = %d\n", MAX);
+
+    return 0;
+}
+
 # Output:
+Macro Constant PI = 3.14
+Constant Variable MAX = 100
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,8 +115,32 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    int number = 10;           
+    float rate = 5.25;         
+    double salary = 35000.75;  
+    char grade = 'A';          
+
+    printf("Integer value: %d\n", number);
+    printf("Float value: %.2f\n", rate);
+    printf("Double value: %.2lf\n", salary);
+    printf("Character value: %c\n", grade);
+
+    return 0;
+}
+
 # Output:
+Integer value: 10
+Float value: 5.25
+Double value: 35000.75
+Character value: A
+
 # Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
+
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -120,7 +178,49 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    int a = 10, b = 20;
+
+    printf("Values: a = %d, b = %d\n\n", a, b);
+    printf("Arithmetic Operations:\n");
+    printf("Addition (a + b) = %d\n", a + b);
+    printf("Subtraction (a - b) = %d\n", a - b);
+    printf("Multiplication (a * b) = %d\n", a * b);
+    printf("Division (a / b) = %d\n", a / b);
+    printf("Remainder (a %% b) = %d\n\n", a % b);
+
+    printf("Bitwise Operations:\n");
+    printf("AND (a & b) = %d\n", a & b);
+    printf("OR  (a | b) = %d\n", a | b);
+    printf("XOR (a ^ b) = %d\n", a ^ b);
+    printf("Left Shift (a << 1) = %d\n", a << 1);
+    printf("Right Shift (a >> 1) = %d\n", a >> 1);
+    printf("NOT (~a) = %d\n", ~a);
+
+    return 0;
+}
+
 # Output:
+Values: a = 10, b = 20
+
+Arithmetic Operations:
+Addition (a + b) = 30
+Subtraction (a - b) = -10
+Multiplication (a * b) = 200
+Division (a / b) = 0
+Remainder (a % b) = 10
+
+Bitwise Operations:
+AND (a & b) = 0
+OR  (a | b) = 30
+XOR (a ^ b) = 30
+Left Shift (a << 1) = 20
+Right Shift (a >> 1) = 5
+NOT (~a) = -11
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +265,27 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    char ch = 'A';  
+
+    (ch >= '0' && ch <= '9') ?
+        printf("It is a Digit\n") :
+    (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+     ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') ?
+        printf("It is a Vowel\n") :
+    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+        printf("It is a Consonant\n") :
+        printf("It is a Special Symbol\n");
+
+    return 0;
+}
+
 # Output:
+It is a Vowel
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
