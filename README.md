@@ -76,11 +76,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 # Program:
 #include <stdio.h>
 
-#define PI 3.14      // Macro constant
+#define PI 3.14      
 
 int main()
 {
-    const int MAX = 100;   // Constant variable
+    const int MAX = 100;   
 
     printf("Macro Constant PI = %.2f\n", PI);
     printf("Constant Variable MAX = %d\n", MAX);
