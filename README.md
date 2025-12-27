@@ -1,4 +1,4 @@
-<img width="1212" height="360" alt="m1(1)" src="https://github.com/user-attachments/assets/a5f95ea5-9178-42e0-8c30-ccef8ca37f01" /># 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
+
 # IAPR-1- Module 1 - FoC
 ## 1. Implementation of basic C programs using Literals,Consonants, Variables, Data types.
 ## 2. Implementation of different categories of operators.
@@ -86,8 +86,8 @@ int main()
 }
 
 # Output:
-Macro Constant PI = 3.14
-Constant Variable MAX = 100
+<img width="1198" height="431" alt="image" src="https://github.com/user-attachments/assets/681f83c3-fbd1-4061-a92f-b47ae644f223" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -130,10 +130,8 @@ int main()
 }
 
 # Output:
-Integer value: 10
-Float value: 5.25
-Double value: 35000.75
-Character value: A
+<img width="1228" height="497" alt="image" src="https://github.com/user-attachments/assets/c7d6f62b-6e90-4642-8457-cabffdbde578" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -201,22 +199,8 @@ int main()
 }
 
 # Output:
-Values: a = 10, b = 20
+<img width="432" height="597" alt="image" src="https://github.com/user-attachments/assets/e428692b-8d65-4961-9e76-c6ac9044b072" />
 
-Arithmetic Operations:
-Addition (a + b) = 30
-Subtraction (a - b) = -10
-Multiplication (a * b) = 200
-Division (a / b) = 0
-Remainder (a % b) = 10
-
-Bitwise Operations:
-AND (a & b) = 0
-OR  (a | b) = 30
-XOR (a ^ b) = 30
-Left Shift (a << 1) = 20
-Right Shift (a >> 1) = 5
-NOT (~a) = -11
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -281,7 +265,8 @@ int main()
 }
 
 # Output:
-It is a Vowel
+<img width="1200" height="526" alt="image" src="https://github.com/user-attachments/assets/29f7ae5f-ed02-45b2-a9d9-4de55811bddb" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
