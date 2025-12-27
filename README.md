@@ -1,4 +1,4 @@
-# 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
+<img width="1212" height="360" alt="m1(1)" src="https://github.com/user-attachments/assets/a5f95ea5-9178-42e0-8c30-ccef8ca37f01" /># 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
 # IAPR-1- Module 1 - FoC
 ## 1. Implementation of basic C programs using Literals,Consonants, Variables, Data types.
 ## 2. Implementation of different categories of operators.
@@ -39,10 +39,7 @@ int main()
 }
 
 # Output:
-Integer Literal: 100
-Float Literal: 25.75
-Character Literal: A
-String Literal: C Programming
+<img width="1212" height="360" alt="m1(1)" src="https://github.com/user-attachments/assets/6e3368dc-9dd8-4f80-acb4-35ef6e8c1917" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
